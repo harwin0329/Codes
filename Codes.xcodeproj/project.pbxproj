@@ -15,6 +15,10 @@
 		C9529D8E21A68B39000DBE90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9529D8D21A68B39000DBE90 /* main.m */; };
 		C9529D9821A68B39000DBE90 /* CodesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9529D9721A68B39000DBE90 /* CodesTests.m */; };
 		C9529DA321A68B39000DBE90 /* CodesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9529DA221A68B39000DBE90 /* CodesUITests.m */; };
+		C9529DB421A68BDB000DBE90 /* CZWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9529DB221A68BDB000DBE90 /* CZWTableViewController.m */; };
+		C9529DB521A68BDB000DBE90 /* CZWTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9529DB321A68BDB000DBE90 /* CZWTableViewController.xib */; };
+		C9529DB921A6963B000DBE90 /* ImageVsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9529DB721A6963B000DBE90 /* ImageVsTableViewCell.m */; };
+		C9529DBA21A6963B000DBE90 /* ImageVsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9529DB821A6963B000DBE90 /* ImageVsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		C9529D9E21A68B39000DBE90 /* CodesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9529DA221A68B39000DBE90 /* CodesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodesUITests.m; sourceTree = "<group>"; };
 		C9529DA421A68B39000DBE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9529DB121A68BDB000DBE90 /* CZWTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZWTableViewController.h; sourceTree = "<group>"; };
+		C9529DB221A68BDB000DBE90 /* CZWTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZWTableViewController.m; sourceTree = "<group>"; };
+		C9529DB321A68BDB000DBE90 /* CZWTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CZWTableViewController.xib; sourceTree = "<group>"; };
+		C9529DB621A6963B000DBE90 /* ImageVsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageVsTableViewCell.h; sourceTree = "<group>"; };
+		C9529DB721A6963B000DBE90 /* ImageVsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageVsTableViewCell.m; sourceTree = "<group>"; };
+		C9529DB821A6963B000DBE90 /* ImageVsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageVsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,7 @@
 				C9529D7F21A68B36000DBE90 /* AppDelegate.m */,
 				C9529D8121A68B36000DBE90 /* ViewController.h */,
 				C9529D8221A68B36000DBE90 /* ViewController.m */,
+				C9529DB021A68B71000DBE90 /* UITableview加载优化(Runloop加载优化) */,
 				C9529D8421A68B36000DBE90 /* Main.storyboard */,
 				C9529D8721A68B39000DBE90 /* Assets.xcassets */,
 				C9529D8921A68B39000DBE90 /* LaunchScreen.storyboard */,
@@ -130,6 +141,19 @@
 				C9529DA421A68B39000DBE90 /* Info.plist */,
 			);
 			path = CodesUITests;
+			sourceTree = "<group>";
+		};
+		C9529DB021A68B71000DBE90 /* UITableview加载优化(Runloop加载优化) */ = {
+			isa = PBXGroup;
+			children = (
+				C9529DB121A68BDB000DBE90 /* CZWTableViewController.h */,
+				C9529DB221A68BDB000DBE90 /* CZWTableViewController.m */,
+				C9529DB321A68BDB000DBE90 /* CZWTableViewController.xib */,
+				C9529DB621A6963B000DBE90 /* ImageVsTableViewCell.h */,
+				C9529DB721A6963B000DBE90 /* ImageVsTableViewCell.m */,
+				C9529DB821A6963B000DBE90 /* ImageVsTableViewCell.xib */,
+			);
+			path = "UITableview加载优化(Runloop加载优化)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +261,8 @@
 			files = (
 				C9529D8B21A68B39000DBE90 /* LaunchScreen.storyboard in Resources */,
 				C9529D8821A68B39000DBE90 /* Assets.xcassets in Resources */,
+				C9529DBA21A6963B000DBE90 /* ImageVsTableViewCell.xib in Resources */,
+				C9529DB521A68BDB000DBE90 /* CZWTableViewController.xib in Resources */,
 				C9529D8621A68B36000DBE90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9529D8321A68B36000DBE90 /* ViewController.m in Sources */,
+				C9529DB921A6963B000DBE90 /* ImageVsTableViewCell.m in Sources */,
 				C9529D8E21A68B39000DBE90 /* main.m in Sources */,
+				C9529DB421A68BDB000DBE90 /* CZWTableViewController.m in Sources */,
 				C9529D8021A68B36000DBE90 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

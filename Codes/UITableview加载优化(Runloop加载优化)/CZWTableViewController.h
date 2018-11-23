@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CZWTableViewController.h
 //  Codes
 //
 //  Created by chenzw on 2018/11/22.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface CZWTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
