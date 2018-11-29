@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CZWTableViewController : UITableViewController
 
++ (void)addImageV:(UITableViewCell *)cell index:(NSInteger )index;
+
 @end
 
 NS_ASSUME_NONNULL_END

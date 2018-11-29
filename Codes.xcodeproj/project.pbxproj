@@ -16,9 +16,11 @@
 		C9529D9821A68B39000DBE90 /* CodesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9529D9721A68B39000DBE90 /* CodesTests.m */; };
 		C9529DA321A68B39000DBE90 /* CodesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9529DA221A68B39000DBE90 /* CodesUITests.m */; };
 		C9529DB421A68BDB000DBE90 /* CZWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9529DB221A68BDB000DBE90 /* CZWTableViewController.m */; };
-		C9529DB521A68BDB000DBE90 /* CZWTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9529DB321A68BDB000DBE90 /* CZWTableViewController.xib */; };
-		C9529DB921A6963B000DBE90 /* ImageVsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9529DB721A6963B000DBE90 /* ImageVsTableViewCell.m */; };
-		C9529DBA21A6963B000DBE90 /* ImageVsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9529DB821A6963B000DBE90 /* ImageVsTableViewCell.xib */; };
+		C9A5BE6621ABCFE100C82677 /* PointViewController_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5BE6521ABCFE100C82677 /* PointViewController_Swift.swift */; };
+		C9A5BE6A21AD22CE00C82677 /* Point.c in Sources */ = {isa = PBXBuildFile; fileRef = C9A5BE6921AD22CE00C82677 /* Point.c */; };
+		C9D631E621AF87B90086F621 /* CocoaPodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D631E521AF87B90086F621 /* CocoaPodsViewController.swift */; };
+		C9E88E3521A799C4007730F8 /* CZWCellMoreImageVsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E88E3421A799C4007730F8 /* CZWCellMoreImageVsController.swift */; };
+		F60DB7EB4C8122A8EDF307ED /* libPods-Codes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58021DF3D2D8DD5F0D9B01A0 /* libPods-Codes.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32D8A3315BDAFC70584CD8F5 /* Pods-Codes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Codes/Pods-Codes.release.xcconfig"; sourceTree = "<group>"; };
+		58021DF3D2D8DD5F0D9B01A0 /* libPods-Codes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Codes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9529D7B21A68B36000DBE90 /* Codes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9529D7E21A68B36000DBE90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9529D7F21A68B36000DBE90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,10 +61,13 @@
 		C9529DA421A68B39000DBE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9529DB121A68BDB000DBE90 /* CZWTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZWTableViewController.h; sourceTree = "<group>"; };
 		C9529DB221A68BDB000DBE90 /* CZWTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZWTableViewController.m; sourceTree = "<group>"; };
-		C9529DB321A68BDB000DBE90 /* CZWTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CZWTableViewController.xib; sourceTree = "<group>"; };
-		C9529DB621A6963B000DBE90 /* ImageVsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageVsTableViewCell.h; sourceTree = "<group>"; };
-		C9529DB721A6963B000DBE90 /* ImageVsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageVsTableViewCell.m; sourceTree = "<group>"; };
-		C9529DB821A6963B000DBE90 /* ImageVsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageVsTableViewCell.xib; sourceTree = "<group>"; };
+		C9A5BE6521ABCFE100C82677 /* PointViewController_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointViewController_Swift.swift; sourceTree = "<group>"; };
+		C9A5BE6821AD22CE00C82677 /* Point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		C9A5BE6921AD22CE00C82677 /* Point.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Point.c; sourceTree = "<group>"; };
+		C9D631E521AF87B90086F621 /* CocoaPodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaPodsViewController.swift; sourceTree = "<group>"; };
+		C9E88E3321A799C4007730F8 /* Codes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Codes-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9E88E3421A799C4007730F8 /* CZWCellMoreImageVsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CZWCellMoreImageVsController.swift; sourceTree = "<group>"; };
+		D3CF285ED6D267DE5B12FE9C /* Pods-Codes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Codes/Pods-Codes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60DB7EB4C8122A8EDF307ED /* libPods-Codes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +103,8 @@
 				C9529D9621A68B39000DBE90 /* CodesTests */,
 				C9529DA121A68B39000DBE90 /* CodesUITests */,
 				C9529D7C21A68B36000DBE90 /* Products */,
+				ED7AD4C0B036F3B8608C4335 /* Pods */,
+				E0A15896DC809A9C3E1CB9E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,10 +125,13 @@
 				C9529D7F21A68B36000DBE90 /* AppDelegate.m */,
 				C9529D8121A68B36000DBE90 /* ViewController.h */,
 				C9529D8221A68B36000DBE90 /* ViewController.m */,
+				C9F922B621AE8E74002E6FE0 /* 待解决 */,
+				C9D631E421AF875E0086F621 /* Cocoapods */,
 				C9529DB021A68B71000DBE90 /* UITableview加载优化(Runloop加载优化) */,
 				C9529D8421A68B36000DBE90 /* Main.storyboard */,
 				C9529D8721A68B39000DBE90 /* Assets.xcassets */,
 				C9529D8921A68B39000DBE90 /* LaunchScreen.storyboard */,
+				C9E88E3321A799C4007730F8 /* Codes-Bridging-Header.h */,
 				C9529D8C21A68B39000DBE90 /* Info.plist */,
 				C9529D8D21A68B39000DBE90 /* main.m */,
 			);
@@ -146,14 +159,62 @@
 		C9529DB021A68B71000DBE90 /* UITableview加载优化(Runloop加载优化) */ = {
 			isa = PBXGroup;
 			children = (
-				C9529DB121A68BDB000DBE90 /* CZWTableViewController.h */,
-				C9529DB221A68BDB000DBE90 /* CZWTableViewController.m */,
-				C9529DB321A68BDB000DBE90 /* CZWTableViewController.xib */,
-				C9529DB621A6963B000DBE90 /* ImageVsTableViewCell.h */,
-				C9529DB721A6963B000DBE90 /* ImageVsTableViewCell.m */,
-				C9529DB821A6963B000DBE90 /* ImageVsTableViewCell.xib */,
+				C9E88E3221A79923007730F8 /* Swfit */,
+				C9E88E3021A7990F007730F8 /* OC */,
 			);
 			path = "UITableview加载优化(Runloop加载优化)";
+			sourceTree = "<group>";
+		};
+		C9D631E421AF875E0086F621 /* Cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				C9D631E521AF87B90086F621 /* CocoaPodsViewController.swift */,
+			);
+			path = Cocoapods;
+			sourceTree = "<group>";
+		};
+		C9E88E3021A7990F007730F8 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				C9529DB121A68BDB000DBE90 /* CZWTableViewController.h */,
+				C9529DB221A68BDB000DBE90 /* CZWTableViewController.m */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		C9E88E3221A79923007730F8 /* Swfit */ = {
+			isa = PBXGroup;
+			children = (
+				C9E88E3421A799C4007730F8 /* CZWCellMoreImageVsController.swift */,
+			);
+			path = Swfit;
+			sourceTree = "<group>";
+		};
+		C9F922B621AE8E74002E6FE0 /* 待解决 */ = {
+			isa = PBXGroup;
+			children = (
+				C9A5BE6821AD22CE00C82677 /* Point.h */,
+				C9A5BE6521ABCFE100C82677 /* PointViewController_Swift.swift */,
+				C9A5BE6921AD22CE00C82677 /* Point.c */,
+			);
+			path = "待解决";
+			sourceTree = "<group>";
+		};
+		E0A15896DC809A9C3E1CB9E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58021DF3D2D8DD5F0D9B01A0 /* libPods-Codes.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7AD4C0B036F3B8608C4335 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3CF285ED6D267DE5B12FE9C /* Pods-Codes.debug.xcconfig */,
+				32D8A3315BDAFC70584CD8F5 /* Pods-Codes.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9529DA721A68B39000DBE90 /* Build configuration list for PBXNativeTarget "Codes" */;
 			buildPhases = (
+				55B32D5F1DDB90026A7BD21C /* [CP] Check Pods Manifest.lock */,
 				C9529D7721A68B36000DBE90 /* Sources */,
 				C9529D7821A68B36000DBE90 /* Frameworks */,
 				C9529D7921A68B36000DBE90 /* Resources */,
@@ -223,6 +285,7 @@
 				TargetAttributes = {
 					C9529D7A21A68B36000DBE90 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					C9529D9221A68B39000DBE90 = {
 						CreatedOnToolsVersion = 10.1;
@@ -261,8 +324,6 @@
 			files = (
 				C9529D8B21A68B39000DBE90 /* LaunchScreen.storyboard in Resources */,
 				C9529D8821A68B39000DBE90 /* Assets.xcassets in Resources */,
-				C9529DBA21A6963B000DBE90 /* ImageVsTableViewCell.xib in Resources */,
-				C9529DB521A68BDB000DBE90 /* CZWTableViewController.xib in Resources */,
 				C9529D8621A68B36000DBE90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,16 +344,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55B32D5F1DDB90026A7BD21C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Codes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C9529D7721A68B36000DBE90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C9529D8321A68B36000DBE90 /* ViewController.m in Sources */,
-				C9529DB921A6963B000DBE90 /* ImageVsTableViewCell.m in Sources */,
+				C9E88E3521A799C4007730F8 /* CZWCellMoreImageVsController.swift in Sources */,
+				C9D631E621AF87B90086F621 /* CocoaPodsViewController.swift in Sources */,
 				C9529D8E21A68B39000DBE90 /* main.m in Sources */,
 				C9529DB421A68BDB000DBE90 /* CZWTableViewController.m in Sources */,
 				C9529D8021A68B36000DBE90 /* AppDelegate.m in Sources */,
+				C9A5BE6A21AD22CE00C82677 /* Point.c in Sources */,
+				C9A5BE6621ABCFE100C82677 /* PointViewController_Swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,9 +550,12 @@
 		};
 		C9529DA821A68B39000DBE90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CF285ED6D267DE5B12FE9C /* Pods-Codes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 966KU78QPS;
 				INFOPLIST_FILE = Codes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,15 +564,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gripay.Codes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chenzw/Desktop/Codes/Codes/Codes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C9529DA921A68B39000DBE90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D8A3315BDAFC70584CD8F5 /* Pods-Codes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 966KU78QPS;
 				INFOPLIST_FILE = Codes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -489,6 +587,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gripay.Codes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chenzw/Desktop/Codes/Codes/Codes-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -496,6 +596,7 @@
 		C9529DAB21A68B39000DBE90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 966KU78QPS;
@@ -515,6 +616,7 @@
 		C9529DAC21A68B39000DBE90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 966KU78QPS;
@@ -534,6 +636,7 @@
 		C9529DAE21A68B39000DBE90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 966KU78QPS;
 				INFOPLIST_FILE = CodesUITests/Info.plist;
@@ -552,6 +655,7 @@
 		C9529DAF21A68B39000DBE90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 966KU78QPS;
 				INFOPLIST_FILE = CodesUITests/Info.plist;

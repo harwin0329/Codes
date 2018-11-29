@@ -7,7 +7,6 @@
 //
 
 #import "CZWTableViewController.h"
-#import "ImageVsTableViewCell.h"
 
 typedef void(^RunloopBlock)(void);
 
@@ -23,13 +22,13 @@ typedef void(^RunloopBlock)(void);
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([ImageVsTableViewCell class ]) bundle:nil] forCellReuseIdentifier:@"reuseIdentifier"];
-    
     self.tasks = [NSMutableArray arrayWithCapacity:21];
     self.maxTaskCount = 21;
     [self addRunloopObserver];
+    
 }
 
+// 把要执行的图片渲染，下载事件加入Runoop
 - (void)addTask:(RunloopBlock)task{
     [self.tasks addObject:task];
     
@@ -38,6 +37,7 @@ typedef void(^RunloopBlock)(void);
     }
 }
 
+// Runloop观察者执行的回调函数
 static void callout(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info){
     CZWTableViewController *viewController = (__bridge CZWTableViewController *)(info);
     
@@ -83,7 +83,7 @@ static void callout(CFRunLoopObserverRef observer, CFRunLoopActivity activity, v
     newImageV.tag = 100+index;
     [cell.contentView addSubview:newImageV];
     
-    NSURL *url = [NSURL URLWithString:@"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1015859102,487495968&fm=11&gp=0.jpg"];
+    NSURL *url = [NSURL URLWithString:@"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543322073248&di=7a93011cba2cdf35ab732ebecb86caca&imgtype=0&src=http%3A%2F%2Fdesk-fd.zol-img.com.cn%2Ft_s960x600c5%2Fg5%2FM00%2F02%2F02%2FChMkJ1bKxYSIQhdiAAmObPz7G10AALHXQAlAygACY6E320.jpg"];
     NSData *data = [NSData dataWithContentsOfURL:url];
     newImageV.image = [UIImage imageWithData:data];
 }
@@ -98,6 +98,10 @@ static void callout(CFRunLoopObserverRef observer, CFRunLoopActivity activity, v
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
     return 9999;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 140.0f;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
