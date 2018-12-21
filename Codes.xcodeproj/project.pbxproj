@@ -18,7 +18,15 @@
 		C9529DB421A68BDB000DBE90 /* CZWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9529DB221A68BDB000DBE90 /* CZWTableViewController.m */; };
 		C9A5BE6621ABCFE100C82677 /* PointViewController_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5BE6521ABCFE100C82677 /* PointViewController_Swift.swift */; };
 		C9A5BE6A21AD22CE00C82677 /* Point.c in Sources */ = {isa = PBXBuildFile; fileRef = C9A5BE6921AD22CE00C82677 /* Point.c */; };
+		C9C5343621CB40E600CE3EE8 /* KVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C5343521CB40E600CE3EE8 /* KVCViewController.m */; };
 		C9D631E621AF87B90086F621 /* CocoaPodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D631E521AF87B90086F621 /* CocoaPodsViewController.swift */; };
+		C9D631EB21AF96930086F621 /* BaseTextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D631EA21AF96930086F621 /* BaseTextViewViewController.swift */; };
+		C9D631ED21AFC2DC0086F621 /* AFNetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D631EC21AFC2DC0086F621 /* AFNetworkingViewController.swift */; };
+		C9DC66E021C38F160064B17E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C9DC66DF21C38F160064B17E /* README.md */; };
+		C9DC66E221C38F950064B17E /* NotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = C9DC66E121C38F950064B17E /* NotificationPayload.apns */; };
+		C9DC66E421C38FBB0064B17E /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9DC66E321C38FBB0064B17E /* File.rtf */; };
+		C9DC66E621C390640064B17E /* Script.sh in Resources */ = {isa = PBXBuildFile; fileRef = C9DC66E521C390640064B17E /* Script.sh */; };
+		C9DC66E821C390990064B17E /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C9DC66E721C390990064B17E /* Config.xcconfig */; };
 		C9E88E3521A799C4007730F8 /* CZWCellMoreImageVsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E88E3421A799C4007730F8 /* CZWCellMoreImageVsController.swift */; };
 		F60DB7EB4C8122A8EDF307ED /* libPods-Codes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58021DF3D2D8DD5F0D9B01A0 /* libPods-Codes.a */; };
 /* End PBXBuildFile section */
@@ -64,7 +72,16 @@
 		C9A5BE6521ABCFE100C82677 /* PointViewController_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointViewController_Swift.swift; sourceTree = "<group>"; };
 		C9A5BE6821AD22CE00C82677 /* Point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
 		C9A5BE6921AD22CE00C82677 /* Point.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Point.c; sourceTree = "<group>"; };
+		C9C5343421CB40E600CE3EE8 /* KVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCViewController.h; sourceTree = "<group>"; };
+		C9C5343521CB40E600CE3EE8 /* KVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCViewController.m; sourceTree = "<group>"; };
 		C9D631E521AF87B90086F621 /* CocoaPodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaPodsViewController.swift; sourceTree = "<group>"; };
+		C9D631EA21AF96930086F621 /* BaseTextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextViewViewController.swift; sourceTree = "<group>"; };
+		C9D631EC21AFC2DC0086F621 /* AFNetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkingViewController.swift; sourceTree = "<group>"; };
+		C9DC66DF21C38F160064B17E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C9DC66E121C38F950064B17E /* NotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = NotificationPayload.apns; sourceTree = "<group>"; };
+		C9DC66E321C38FBB0064B17E /* File.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
+		C9DC66E521C390640064B17E /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
+		C9DC66E721C390990064B17E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		C9E88E3321A799C4007730F8 /* Codes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Codes-Bridging-Header.h"; sourceTree = "<group>"; };
 		C9E88E3421A799C4007730F8 /* CZWCellMoreImageVsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CZWCellMoreImageVsController.swift; sourceTree = "<group>"; };
 		D3CF285ED6D267DE5B12FE9C /* Pods-Codes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Codes/Pods-Codes.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +142,13 @@
 				C9529D7F21A68B36000DBE90 /* AppDelegate.m */,
 				C9529D8121A68B36000DBE90 /* ViewController.h */,
 				C9529D8221A68B36000DBE90 /* ViewController.m */,
+				C9DC66DF21C38F160064B17E /* README.md */,
+				C9DC66E121C38F950064B17E /* NotificationPayload.apns */,
+				C9DC66E521C390640064B17E /* Script.sh */,
+				C9DC66E321C38FBB0064B17E /* File.rtf */,
+				C9DC66E721C390990064B17E /* Config.xcconfig */,
+				C9C5343321CB40CC00CE3EE8 /* 学习KVC */,
+				C9D631E821AF8CB30086F621 /* 学习AFNetWorking */,
 				C9F922B621AE8E74002E6FE0 /* 待解决 */,
 				C9D631E421AF875E0086F621 /* Cocoapods */,
 				C9529DB021A68B71000DBE90 /* UITableview加载优化(Runloop加载优化) */,
@@ -134,6 +158,7 @@
 				C9E88E3321A799C4007730F8 /* Codes-Bridging-Header.h */,
 				C9529D8C21A68B39000DBE90 /* Info.plist */,
 				C9529D8D21A68B39000DBE90 /* main.m */,
+				C9D631E921AF966D0086F621 /* Base */,
 			);
 			path = Codes;
 			sourceTree = "<group>";
@@ -165,12 +190,37 @@
 			path = "UITableview加载优化(Runloop加载优化)";
 			sourceTree = "<group>";
 		};
+		C9C5343321CB40CC00CE3EE8 /* 学习KVC */ = {
+			isa = PBXGroup;
+			children = (
+				C9C5343421CB40E600CE3EE8 /* KVCViewController.h */,
+				C9C5343521CB40E600CE3EE8 /* KVCViewController.m */,
+			);
+			path = "学习KVC";
+			sourceTree = "<group>";
+		};
 		C9D631E421AF875E0086F621 /* Cocoapods */ = {
 			isa = PBXGroup;
 			children = (
 				C9D631E521AF87B90086F621 /* CocoaPodsViewController.swift */,
 			);
 			path = Cocoapods;
+			sourceTree = "<group>";
+		};
+		C9D631E821AF8CB30086F621 /* 学习AFNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				C9D631EC21AFC2DC0086F621 /* AFNetworkingViewController.swift */,
+			);
+			path = "学习AFNetWorking";
+			sourceTree = "<group>";
+		};
+		C9D631E921AF966D0086F621 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C9D631EA21AF96930086F621 /* BaseTextViewViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		C9E88E3021A7990F007730F8 /* OC */ = {
@@ -323,7 +373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9529D8B21A68B39000DBE90 /* LaunchScreen.storyboard in Resources */,
+				C9DC66E221C38F950064B17E /* NotificationPayload.apns in Resources */,
+				C9DC66E421C38FBB0064B17E /* File.rtf in Resources */,
+				C9DC66E621C390640064B17E /* Script.sh in Resources */,
+				C9DC66E821C390990064B17E /* Config.xcconfig in Resources */,
 				C9529D8821A68B39000DBE90 /* Assets.xcassets in Resources */,
+				C9DC66E021C38F160064B17E /* README.md in Resources */,
 				C9529D8621A68B36000DBE90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,8 +430,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9529D8321A68B36000DBE90 /* ViewController.m in Sources */,
+				C9D631EB21AF96930086F621 /* BaseTextViewViewController.swift in Sources */,
+				C9C5343621CB40E600CE3EE8 /* KVCViewController.m in Sources */,
 				C9E88E3521A799C4007730F8 /* CZWCellMoreImageVsController.swift in Sources */,
 				C9D631E621AF87B90086F621 /* CocoaPodsViewController.swift in Sources */,
+				C9D631ED21AFC2DC0086F621 /* AFNetworkingViewController.swift in Sources */,
 				C9529D8E21A68B39000DBE90 /* main.m in Sources */,
 				C9529DB421A68BDB000DBE90 /* CZWTableViewController.m in Sources */,
 				C9529D8021A68B36000DBE90 /* AppDelegate.m in Sources */,

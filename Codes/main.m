@@ -9,8 +9,20 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+
+
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        
+        int t = 1;
+        
+        const int *a = &t;
+ 
+        
+
+        printf("——————\r",a,"\r");
+        printf("——————\r",&a,"\r");
+
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
