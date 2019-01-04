@@ -13,6 +13,9 @@
 #include <objc/runtime.h>
 #import <Foundation/Foundation.h>
 #import "KVCViewController.h"
+#import "NetViewController.h"
+#import "NSOperationViewController.h"
+#import "BlockViewController.h"
 
 NSArray * array(){
     NSArray *array = [[NSArray alloc] initWithObjects:@"1",@"3",nil];
@@ -108,6 +111,31 @@ void te(){
         {
             // 学习KVC
             KVCViewController *viewController = [[KVCViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:viewController animated:YES];
+        }
+            break;
+            
+        case 6:
+        {
+            // 学习网络编程
+            NetViewController *viewController = [[NetViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:viewController animated:YES];
+        }
+            break;
+            
+        case 7:
+        {
+            // 学习NSOperation
+            NSOperationViewController *viewController = [[NSOperationViewController alloc] initWithNibName:nil bundle:nil];
+            [self.navigationController pushViewController:viewController animated:YES];
+        }
+            break;
+            
+            
+        case 8:
+        {
+            // 学习Block
+            BlockViewController *viewController = [[BlockViewController alloc] initWithNibName:nil bundle:nil];
             [self.navigationController pushViewController:viewController animated:YES];
         }
             break;
