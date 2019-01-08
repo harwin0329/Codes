@@ -18,17 +18,38 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSInvocationOperation *invocationOperation = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(test) object:nil];
-    
-    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        [invocationOperation start];
-        dispatch_async(dispatch_get_main_queue(), ^{
-            for (int i = 100; i < 110; i++) {
-                NSLog(@"%d",i);
-            }
-        });
-    });
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
+        NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+
+        NSBlockOperation *a = [NSBlockOperation  blockOperationWithBlock:^{
+            for (int i = 0; i < 10; i++) {
+                NSLog(@"AAAAAAAAAA%d",i);
+                sleep(1);
+            }
+        }];
+        
+        NSBlockOperation *b= [NSBlockOperation  blockOperationWithBlock:^{
+            for (int i = 0; i < 10; i++) {
+                NSLog(@"BBBBBBBBBBBB%d",i);
+                sleep(1);
+            }
+        }];
+        
+        NSBlockOperation *c = [NSBlockOperation  blockOperationWithBlock:^{
+            for (int i = 0; i < 10; i++) {
+                NSLog(@"CCCCCCCCCCC%d",i);
+                sleep(1);
+            }
+        }];
+        [a addDependency:b];
+        [b addDependency:c];
+        
+        [queue addOperation:a];
+        [queue addOperation:b];
+        [queue addOperation:c];
+    });
+
 }
 
 - (void)test{
